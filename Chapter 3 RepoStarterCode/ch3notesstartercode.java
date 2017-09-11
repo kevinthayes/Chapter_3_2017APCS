@@ -17,54 +17,55 @@ public class ch3notesstartercode
 public static void main (String [] args)
 {
 
+        Scanner Keyboard = new Scanner(System.in);
 /**/
-	String word1 = "apple";
-	String word2 = "cat";
-	String word3 = "dog";
+    String word1 = "apple";
+    String word2 = "cat";
+    String word3 = "dog";
 
-	if(word2.compareTo(word1)<0)//;end a statement BAD BAD simicolen
-	{
-		System.out.println(word2 +" is before " + word1  );
-		System.out.println("and cats are evil" );
-	}//ctrl M - will match brackets
-	else
-		System.out.println(word1 +" is before " + word2  );
+    if(word2.compareTo(word1)<0)//;end a statement BAD BAD simicolen
+    {
+        System.out.println(word2 +" is before " + word1  );
+        System.out.println("and cats are evil" );
+    }//ctrl M - will match brackets
+    else
+        System.out.println(word1 +" is before " + word2  );
 
-	if(word2.compareTo(word3)<0)
-		System.out.println(word2 +" is before " + word3  );
+    if(word2.compareTo(word3)<0)
+        System.out.println(word2 +" is before " + word3  );
 /*
 
       int num = 5, num1 =10, num2 = 4;  // standard hours in a work week
 
       System.out.print ("Enter a number ");
-      num = Keyboard.readInt();
+      num = Keyboard.nextInt();
 
        System.out.print ("Enter a  second number ");
-	   num1 = Keyboard.readInt();
+       num1 = Keyboard.nextInt();
 
        System.out.print ("Enter a  third number ");
-	   num2 = Keyboard.readInt();
+       num2 = Keyboard.nextInt();
 
       System.out.println ();
 /*
 
-	   boolean a = true, b = false, c = false,d;
-		//System.out.println(a  );
-	  // c =(a = true) || (b = true);
-	  // System.out.println(a + "-" + b + "-" + c);
+       boolean a = true, b = false, c = false,d;
+        //System.out.println(a  );
+      // c =(a = true) || (b = true);
+      // System.out.println(a + "-" + b + "-" + c);
 
 
-	//   c = (a = false) || (b = true);
-	//   System.out.println(a + "-" + b+ "-" + c);
+    //   c = (a = false) || (b = true);
+    //   System.out.println(a + "-" + b+ "-" + c);
 
-//	   c =(a = false) && (b = true);
- //	   System.out.print(a + "-" + b+ "-" + c);
+//     c =(a = false) && (b = true);
+ //    System.out.print(a + "-" + b+ "-" + c);
 //
-//	   c = (a = true) && (b = false);
-//	   System.out.print(a + "-" + b + "-" + c);
+//     c = (a = true) && (b = false);
+//     System.out.print(a + "-" + b + "-" + c);
 
-//	   d =!(a = true) || (b = true) && (c = true);
-//	   System.out.print(a + "-" + b + "-" + c+ "-" + d);
+//     d =!(a = true) || (b = true) && (c = true);
+//     System.out.print(a + "-" + b + "-" + c+ "-" + d);
 
 
 /*  */
