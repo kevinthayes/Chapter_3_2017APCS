@@ -41,11 +41,30 @@ public static void main (String [] args)
 
        System.out.print ("Enter a  second number ");
 	   num1 = Keyboard.readInt();
-/*
+
        System.out.print ("Enter a  third number ");
 	   num2 = Keyboard.readInt();
 
       System.out.println ();
+/*
+
+	   boolean a = true, b = false, c = false,d;
+		//System.out.println(a  );
+	  // c =(a = true) || (b = true);
+	  // System.out.println(a + "-" + b + "-" + c);
+
+
+	//   c = (a = false) || (b = true);
+	//   System.out.println(a + "-" + b+ "-" + c);
+
+//	   c =(a = false) && (b = true);
+ //	   System.out.print(a + "-" + b+ "-" + c);
+//
+//	   c = (a = true) && (b = false);
+//	   System.out.print(a + "-" + b + "-" + c);
+
+//	   d =!(a = true) || (b = true) && (c = true);
+//	   System.out.print(a + "-" + b + "-" + c+ "-" + d);
 
 
 /*  */
